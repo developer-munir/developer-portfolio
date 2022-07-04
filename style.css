@@ -34,7 +34,7 @@ p{
 }
 #hire-btn,
 #resume-button{
-    background-color: tomato;
+    background: linear-gradient(rgb(10, 9, 9),rgb(230, 50, 5));
     padding: 10px 40px;
     text-decoration: none;
     font-weight: 700;
