@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffff;
+   
     margin: 0;
     font-family: 'Roboto Condensed', sans-serif;
     background: url(images/top-banner.png) no-repeat;
@@ -43,10 +43,44 @@ p{
 }
 .dream-big{
     display: flex;
-    height: 100vh;
-    width: 100%;
     background: url(images/dream-bg.png) no-repeat;
     background-position: right;
     background-size: 7%;
-   
+}
+.exprience{
+    display: flex;
+    
+}
+.cards{
+    width: 40%;
+    margin-left: 5%;
+    margin-right:5% ;
+    padding: 0px 10px;
+    
+}
+.cards-row-1{
+    box-shadow: 10px 5px 30px rgb(125, 120, 120);
+    padding: 10px 20px;
+    height: 270px;
+    border-left: 10px solid tomato;
+    
+}
+.cards-row-2{
+    box-shadow: 10px 5px 30px rgb(125, 120, 120);
+    padding: 10px 20px;
+    height: 270px;
+    border-left: 10px solid blue;
+    
+}
+.exprience-developer{
+   color: salmon;
+}
+.experience-section{
+    background: url(images/exp-bg.png) no-repeat;
+    background-position: left;
+}
+.copyright-msg{
+   text-align: center;
+   margin-top: 15%;
+   font-size: 16px;
 }
